@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 from weekday import weekday
-
+#  python -m unittest '.py file'
 
 class TestWeekday(TestCase):
     def test_weekdayNone(self):
@@ -35,6 +35,7 @@ class TestWeekday(TestCase):
 
     def test_weekday3(self):
         self.assertEqual(3, weekday(25, 12, 2025))
+        self.assertEqual(3, weekday(16, 6, 3))
 
     def test_weekday4(self):
         self.assertEqual(4, weekday(24, 1, 55))
