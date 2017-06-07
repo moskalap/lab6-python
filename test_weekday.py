@@ -1,7 +1,9 @@
 from unittest import TestCase
 
 from weekday import weekday
-#  python -m unittest '.py file'
+
+
+#  python -m unittest ./test_weekday.py
 
 class TestWeekday(TestCase):
     def test_weekdayNone(self):
